@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "631011628249",
+    "project_id": "mia-e1fd1",
+    "storage_bucket": "mia-e1fd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631011628249:android:c796d757eaeb9bb904dac8",
+        "android_client_info": {
+          "package_name": "com.example.mia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631011628249-3tvs9h0ajkmfvjs2ac56fsfi9jq9fr1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIzUcUKlP_dNUwERc9OBUWFb4YSFTJYXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631011628249-3tvs9h0ajkmfvjs2ac56fsfi9jq9fr1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

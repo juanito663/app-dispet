@@ -7,6 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -46,12 +51,32 @@ public class Comida extends Fragment {
         return fragment;
     }
 
+    DatabaseReference mRootReference;
+    Button mButtonsubirDatosFireBase;
+    EditText mEditTextDatoPesoComida;
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
+
+        mRootReference = FirebaseDatabase.getInstance().getReference();
+
+
+        mButtonsubirDatosFireBase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String peso = mEditTextDatoPesoComida.getText().toString();
+
+
+            }
+        });
+
+
         }
     }
 
